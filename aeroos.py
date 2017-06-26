@@ -19,7 +19,7 @@ def reconocimiento():
 
 if len(sys.argv) >= 2  :
   if sys.argv[1] in ("h", "help", "-h"):
-    print "\nEste script procura saber informaçao via ping para obter o s.o em determinado host,para definir o host inicie o script ou escreva ""\n./aeroos.py ping ""'0.0.0.0'\n" 
+    print "\nEste script procura saber informaçao via ping para obter o s.o em determinado host,para definir o host inicie o script \n" 
     sys.exit()
 #  elif sys.argv == "ping":
 #    print "abra outra terminal"
