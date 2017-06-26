@@ -114,7 +114,7 @@ for q in unix:
      break
    else :
       pass 
-if real.find("unknow") != -1:
+if real.find("Host Unreachable") != -1:
    print "sistema inativo ou nao encontrado"
 
 
@@ -138,7 +138,7 @@ if opzoes in ("si", "sim", "sii", "s", "S", "info", "ok") :
 
   print """
    licencia Copyleft(gnu GPL)
-   para mais info leia o Readme.txt
+   para mais info leia o README.md
 """ 
 
 
@@ -146,5 +146,5 @@ if opzoes in ("si", "sim", "sii", "s", "S", "info", "ok") :
 else : 
    print """
    licencia Copyleft(gnu GPL)
-   para mais info leia o Readme.txt
+   para mais info leia README.md
 """
